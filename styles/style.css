@@ -24,6 +24,13 @@
   font-variation-settings: "wdth" var(--main-font-weight, 400px);
 }
 
+@supports (font-variation-settings: normal) {
+  .page {
+    font-family: var(--main-font), sans-serif;
+    font-variation-settings: 'wght' var(--main-font-weight, 400);
+  }
+}
+
 /* Заголовок */
 
 .header {

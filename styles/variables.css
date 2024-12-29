@@ -1,34 +1,20 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --main-font:'Inter-Variable', sans-serif;
-  --accent-font:'Press Star 2P', Monospace;
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "Press Star 2P", Monospace;
 
   --main-font-weight: 400px; /* -вес основной для текста*/
   --accent-font-weight: 700px; /* -вес акцентный для текста*/
 
-  --mobile-width:100%; /*-ширина карточек для мобилки */
+  --mobile-width: 100%; /*-ширина карточек для мобилки */
 
   --bg-color: #fff;
   --contour-color: #000;
   --sparks-color: #ff0000;
   --border-color: #000;
-  --mix-text-color:#fff;
+  --mix-text-color: #fff;
   --text-color: #000;
 
-  --bg-image: 
-  repeating-linear-gradient(
-    #d3d3d3 0px, 
-    #d3d3d3 2px, 
-    transparent 2px, 
-    transparent 4px), 
-  repeating-linear-gradient( 
-    90deg,
-    #d3d3d3 0px,
-    #d3d3d3 2px, 
-    transparent 2px, 
-    transparent 4px),
-  linear-gradient(
-    to bottom, 
-    #e7e7e7 0.01%, 
-    #1a1a1a 100%)
+  --bg-image: repeating-linear-gradient(#d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px), repeating-linear-gradient(90deg, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
 }
