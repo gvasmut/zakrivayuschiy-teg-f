@@ -21,7 +21,7 @@
   background-size: cover;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: "wdth" var(--main-font-weight, 400px);
+  font-variation-settings: "wght" var(--main-font-weight, 400px);
 }
 
 /* Заголовок */
@@ -73,7 +73,7 @@
   font-family: var(--main-font);
   font-size: 18px;
   line-height: 19px;
-  font-variation-settings: "wdth" var(--accent-font-weight, 700px);
+  font-variation-settings: "wght" var(--accent-font-weight, 700px);
 }
 
 .content__card-text {
