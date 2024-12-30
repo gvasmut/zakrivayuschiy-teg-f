@@ -1,10 +1,10 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main-font: "Inter-Variable", sans-serif;
-  --accent-font: "Press Star 2P", Monospace;
+  --accent-font: "Press Star 2P", fantasy;
 
-  --main-font-weight: 400px; /* -вес основной для текста*/
-  --accent-font-weight: 700px; /* -вес акцентный для текста*/
+  --main-font-weight: 400; /* -вес основной для текста*/
+  --accent-font-weight: 700; /* -вес акцентный для текста*/
 
   --mobile-width: 100%; /*-ширина карточек для мобилки */
 

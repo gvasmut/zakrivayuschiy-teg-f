@@ -21,7 +21,7 @@
   background-size: cover;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: "wght" var(--main-font-weight, 400px);
+  font-variation-settings: "wght" var(--main-font-weight, 400);
 }
 
 /* Заголовок */
@@ -42,12 +42,12 @@
 }
 
 .header__title {
+  font-weight: var(--main-font-weight, 400);
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  font-variation-settings: "wght" var(--main-font-weight, 400);
 }
 
 .header__text {
-  font-weight: var(--main-font-weight);
+  font-weight: var(--main-font-weight, 400);
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 }
 
@@ -73,7 +73,7 @@
   font-family: var(--main-font);
   font-size: 18px;
   line-height: 19px;
-  font-variation-settings: "wght" var(--accent-font-weight, 700px);
+  font-variation-settings: "wght" var(--accent-font-weight, 700);
 }
 
 .content__card-text {
@@ -110,6 +110,7 @@
   font-weight: var(--main-font-weight);
   font-size: 14px;
   background-color: var(--bg-color);
+  transition: 0.3s ease;
   cursor: pointer;
 }
 
@@ -146,6 +147,7 @@
   opacity: 0.5;
   font-family: var(--accent-font);
   font-size: 14px;
+  text-shadow: 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, -1px -1px 0 #fff;
   mix-blend-mode: hard-light;
 }
 
@@ -165,7 +167,6 @@
 
 .button:focus-visible {
   box-shadow: 2px 2px 0 0 var(--border-color);
-  transition: 0.3s ease;
 }
 
 .button::before {
@@ -193,6 +194,7 @@
 .card__icon-button:focus-visible {
   outline: 2px solid var(--border-color);
   outline-offset: -2px;
+  transition: 0.3s ease;
 }
 
 .save {
@@ -237,6 +239,7 @@
 
 .dialog__container {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
